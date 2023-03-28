@@ -50,7 +50,7 @@ public class CelebrityGame {
 	 */
 	public void play() {
 		if (celebGameList != null && celebGameList.size() >= 1){
-			celebGameList.set(0, gameCelebrity);
+			gameCelebrity = celebGameList.get(0);
 			gameWindow.replaceScreen("GAME");
 		}
 	}
